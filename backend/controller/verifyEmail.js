@@ -1,4 +1,4 @@
-import User from "../models/User.js"; // rruga e saktë sipas strukturës tëndes
+import User from "../models/user.js"; // rruga e saktë sipas strukturës tëndes user update
 
 export const verifyEmail = async (req, res) => {
   try {
