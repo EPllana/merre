@@ -19,7 +19,7 @@ app.use('/api/stripe-webhook', express.raw({ type: 'application/json' }));
 app.use(express.json());
 app.use(cors("*"));
 
-app.get("/prsh", (req, res) => {
+app.get("/", (req, res) => {
   res.json({ message: "prsh nga backend" });
 });
 
